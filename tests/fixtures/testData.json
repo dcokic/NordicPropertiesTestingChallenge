@@ -1,0 +1,39 @@
+{
+  "validSearch": {
+    "location": "London",
+    "priceRange": {
+      "min": 10000,
+      "max": 50000
+    },
+    "propertyType": "flats"
+  },
+  "validSearch2": {
+    "location": "Bristol",
+    "priceRange": {
+      "min": "10000",
+      "max": "50000",
+      "label": "£10k - £30k"
+    },
+   "propertyType": "flat"
+  },
+  "invalidSearch": {
+    "query": "$$$$$$$",
+    "errorMessage": "Sorry, we could not find a place name matching"
+  },
+  "propertyDetails": {
+    "expectedTitleContains": "flat",
+    "expectedPriceFormat": "£"
+  },
+  
+  "contactForm": {
+    "url": "https://www.zoopla.co.uk/new-homes/details/contact/66759083/?search_identifier=83b7db60bf144251b6369c98e3b82c3385fc8d792de1346aad815a5e64c25641&weekly_featured=1",
+    "name": "Test User",
+    "phone": "07123456789",
+    "email": "test@example.com",
+    "postcode": "BS13 7TJ",
+    "propertyStatus": "I am a first-time buyer",
+    "message": "I am interested in this property and would like more information. Please let me know the next steps."
+  }
+
+}
+
