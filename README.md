@@ -45,17 +45,15 @@ allowing automation scripts to interact with the app without interruption. This 
 npm install
 npx playwright test
 To view the test report:
-
-bash
-Копирај
-Измени
 npx playwright show-report
+
  CI/CD with GitHub Actions
+
 This project uses GitHub Actions to run tests automatically on:
 
-Push to main or master
+Push to master
 
-Pull requests to main or master
+Pull requests to master
 
 The CI workflow is located at .github/workflows/playwright.yml.
 The HTML report is uploaded as an artifact after each run.
