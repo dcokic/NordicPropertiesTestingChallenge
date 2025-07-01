@@ -29,8 +29,8 @@ As part of this technical challenge, automated testing was required. However, **
 In **real-world testing environments**, CAPTCHA is **disabled or bypassed** in coordination with developers to allow for automation.
 
 To work around CAPTCHA:
-- I navigated directly to results or property pages using pre-built URLs.
-- I avoided click-based flows that would trigger CAPTCHA.
+- I have navigated directly to results or property pages using pre-built URLs.
+- I have avoided click-based flows that would trigger CAPTCHA.
 
 Despite this, some tests may still **fail in CI** because CAPTCHA protection is active even on direct URLs.
 
